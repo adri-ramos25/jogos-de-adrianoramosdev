@@ -1,0 +1,177 @@
+body{
+    background-color: rgb(0, 21, 60);
+    color: #fff;
+    font-family: Roboto;
+    font-weight: bold;
+    flex-direction: column;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 4vw;
+}
+
+p{
+    font-size: 2vw;
+}
+
+a{
+    color: #fff;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 17px;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+
+#my-logo{
+    width: 98vw;
+}
+
+#network{
+    display: flex;
+    justify-content: center;
+    gap: 15vw;
+    margin-top: 60px;
+    padding-bottom: 3em;
+}
+
+#about-me-box{
+    background-color: #000B20;
+    padding: 4em;
+    text-align: left;
+    padding-left: 5vw;
+}
+
+#my-game-box{
+    background-color: rgb(0, 21, 60);
+    padding-top: 3em;
+    padding-bottom: 4em;
+    padding-left: 5vw;
+}
+
+#game-img{
+    cursor: pointer;
+    width: 270px;
+    height: 240px;
+}
+
+
+
+.network-btn{
+    color: fff;
+    font-size: 3.5vw;
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-margin{
+    margin-bottom: 30px;
+}
+
+.game-btn{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 240px;
+}
+
+
+
+@media (max-width: 1024px) {
+    .network-btn{
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    p{
+        font-size: 2.5vw;
+    }
+
+    .network-btn{
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 425px) {
+    h1{
+        font-size: 6vw;
+    }
+
+    p{
+        font-size: 4vw;
+    }
+
+    .network-btn{
+        font-size: 7vw;
+    }
+
+    .game-btn{
+        width: 190px;
+        height: 170px;
+    }
+
+    #game-img{
+        width: 190px;
+        height: 170px;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .network-btn{
+        font-size: 7vw;
+    }
+
+    .game-btn{
+        width: 150px;
+        height: 130px;
+    }
+
+    #game-img{
+        width: 150px;
+        height: 130px;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    h1{
+        font-size: 7vw;
+    }
+
+    .network-btn{
+        font-size: 7.5vw;
+    }
+
+    .game-btn{
+        width: 120px;
+        height: 110px;
+    }
+
+    #game-img{
+        width: 120px;
+        height: 110px;
+        padding-left: 0;
+    }
+}

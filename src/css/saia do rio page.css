@@ -1,0 +1,147 @@
+body{
+    background-color: #001D52;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: bold;
+    flex-direction: column;
+    margin: 0;
+}
+
+header{
+    background-color: #000B20;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 4vw;
+}
+
+p{
+    font-size: 2vw;
+}
+
+img{
+    width: 30vw;
+    margin-top: 6vw;
+}
+
+video{
+    width: 40vw;
+    cursor: pointer;
+}
+
+
+
+#download-btn{
+    background-color: #fff;
+    width: 30vw;
+    height: 5vw;
+    margin-top: 4vw;
+    margin-bottom: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#description-section{
+    background-color: #00153C;
+    padding-left: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    font-size: 20px;
+}
+
+#gameplay-section{
+    background-color: #001D52;
+    padding-left: 5vw;
+    padding-top: 4vw;
+    padding-bottom: 4em;
+}
+
+
+
+@media (max-width: 768px) {
+    img{
+        margin-top: 15vw;
+    }
+
+    #download-btn{
+        height: 7vw;
+        margin-bottom: 15vw;
+        font-size: 3vw;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+    img{
+        width: 50vw;
+        margin-top: 18vw;
+    }
+
+    h1{
+        font-size: 6vw;
+    }
+
+    p{
+        font-size: 3vw;
+    }
+
+    video{
+        width: 70vw;
+    }
+
+    #download-btn{
+        width: 50vw;
+        height: 9vw;
+        margin-bottom: 15vw;
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 375px) {
+    p{
+        font-size: 3vw;
+    }
+
+    img{
+        margin-top: 16vw;
+    }
+
+    #download-btn{
+        margin-bottom: 15vw;
+    }
+}
+
+@media (max-width: 320px) {
+    p{
+        font-size: 4vw;
+    }
+
+    img{
+        margin-top: 15vw;
+    }
+
+    video{
+        width: 80vw;
+    }
+
+    #download-btn{
+        width: 50vw;
+        height: 10vw;
+        margin-top: 4vw;
+        margin-bottom: 15vw;
+        font-size: 4vw;
+    }
+}
