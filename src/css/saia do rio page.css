@@ -84,7 +84,7 @@ video{
 
 
 
-@media (max-width: 425px) {
+@media (max-width: 540px) {
     img{
         width: 50vw;
         margin-top: 18vw;
@@ -95,7 +95,7 @@ video{
     }
 
     p{
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     video{
@@ -108,11 +108,25 @@ video{
         margin-bottom: 15vw;
         font-size: 4vw;
     }
+
+    #description-section{
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+    }
+
+    #gameplay-section{
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+    }
 }
 
 @media (max-width: 375px) {
     p{
-        font-size: 3vw;
+        font-size: 4vw;
+    }
+
+    h1{
+        font-size: 7vw;
     }
 
     img{
@@ -122,9 +136,23 @@ video{
     #download-btn{
         margin-bottom: 15vw;
     }
+
+    #description-section{
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+    }
+
+    #gameplay-section{
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+    }
 }
 
 @media (max-width: 320px) {
+    h1{
+        font-size: 8vw;
+    }
+
     p{
         font-size: 4vw;
     }
@@ -143,5 +171,15 @@ video{
         margin-top: 4vw;
         margin-bottom: 15vw;
         font-size: 4vw;
+    }
+
+    #description-section{
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+    }
+
+    #gameplay-section{
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
     }
 }
